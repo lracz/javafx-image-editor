@@ -1,0 +1,85 @@
+/* Main container */
+#mainPanel {
+    -fx-background-color: #2b2b2b;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Left menu bar */
+#leftMenu {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #555555;
+    -fx-border-width: 0 1 0 0;
+}
+
+/* ScrollPane and its internal container */
+#imageContainer {
+    -fx-background-color: #2b2b2b;
+}
+
+#scrollPane {
+    -fx-background: #2b2b2b;
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #2b2b2b;
+}
+
+/* Labels */
+.control-label {
+    -fx-text-fill: #dddddd;
+    -fx-font-weight: bold;
+}
+
+/* Base button style */
+.control-button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 8 15;
+    -fx-background-radius: 5;
+}
+
+/* --- Specific button colors (base and hover) --- */
+
+.btn-open { -fx-background-color: #4CAF50; }
+.btn-open:hover { -fx-background-color: #4CAF50cc; }
+
+.btn-save { -fx-background-color: #2196F3; }
+.btn-save:hover { -fx-background-color: #2196F3cc; }
+
+.btn-bw { -fx-background-color: #555555; }
+.btn-bw:hover { -fx-background-color: #555555cc; }
+
+.btn-sepia { -fx-background-color: #8B5A2B; }
+.btn-sepia:hover { -fx-background-color: #8B5A2bcc; }
+
+.btn-negative { -fx-background-color: #9C27B0; }
+.btn-negative:hover { -fx-background-color: #9C27B0cc; }
+
+.btn-edge { -fx-background-color: #009688; }
+.btn-edge:hover { -fx-background-color: #009688cc; }
+
+.btn-sharpen { -fx-background-color: #00BCD4; }
+.btn-sharpen:hover { -fx-background-color: #00BCD4cc; }
+
+.btn-flip { -fx-background-color: #FF9800; }
+.btn-flip:hover { -fx-background-color: #FF9800cc; }
+
+.btn-rotate { -fx-background-color: #FFC107; -fx-text-fill: #333333; }
+.btn-rotate:hover { -fx-background-color: #FFC107cc; }
+
+/* Smaller RGB channel buttons */
+.btn-red { -fx-background-color: #D32F2F; }
+.btn-red:hover { -fx-background-color: #D32F2Fcc; }
+
+.btn-green { -fx-background-color: #388E3C; }
+.btn-green:hover { -fx-background-color: #388E3Ccc; }
+
+.btn-blue { -fx-background-color: #1976D2; }
+.btn-blue:hover { -fx-background-color: #1976D2cc; }
+
+.btn-undo { -fx-background-color: #607D8B; }
+.btn-undo:hover { -fx-background-color: #607D8Bcc; }
+
+.btn-redo { -fx-background-color: #607D8B; }
+.btn-redo:hover { -fx-background-color: #607D8Bcc; }
+
+.btn-reset { -fx-background-color: #f44336; }
+.btn-reset:hover { -fx-background-color: #f44336cc; }
